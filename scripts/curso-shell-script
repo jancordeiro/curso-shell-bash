@@ -1,0 +1,23 @@
+#!/bin/shell
+clear
+
+day=`date +%d`
+mon=`date +%m`
+year=`date +%y`
+
+echo "+----------------------------------------------+"
+echo "| Seja bem-Vindo ao Curso Basico de Shell Bash |"
+echo "+----------------------------------------------+"
+echo "|                                              |"
+echo "|_ Professor Janpedro Cordeiro ________________|"
+echo ""
+
+read -p "Digite seu nome: " nome
+
+echo "|"
+echo "|"
+echo "+----------------------------------------------+"
+echo "| Na data de hoje: $day/$mon/$year"
+echo "| O(a) usuario(a) $nome"
+echo "| Inicia seu curso básico de Shell Script"
+echo "+----------------------------------------------+"
