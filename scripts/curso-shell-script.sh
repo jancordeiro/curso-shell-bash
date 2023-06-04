@@ -25,7 +25,7 @@ read -p "Idade: " idade
 read -p "E-mail: " email
 
 # Cria variável para acrescentar dados no arquivo .txt
-cad=`echo -e "$data\n$nome\n$idade\n$email\n-----" >> cada>
+cad=`echo -e "$data\n$nome\n$idade\n$email\n-----" >> cadastros.txt
 
 # Imprime texto e a variavel nome na tela
 echo "Cadastrado de $nome efetuado com sucesso."
